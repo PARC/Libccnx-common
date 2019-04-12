@@ -2,9 +2,13 @@ Libccnx-common
 =======
 The CCNx Common Library
 
+# Deprecated Code #
+This repository is no longer active.  See the [Community ICN](https://wiki.fd.io/view/Cicn) project
+for the latest code.  The [CICN Code Repository](https://github.com/FDio/cicn) should be used for all new projects.
+
 ## Quick Start ##
 ```
-$ git clone git@github.com:PARC/Libccnx-common.git Libccnx-common
+$ git clone git@github.com:parc-ccnx-archive/Libccnx-common.git Libccnx-common
 $ mkdir Libccnx-common.build
 $ cd Libccnx-common.build
 $ cmake -DCMAKE_INSTALL_PREFIX=${INSTALL_DIR} ../Libccnx-common
@@ -21,7 +25,7 @@ The CCNx Common library is a set of functions and data structures for CCNx.
 
 ### Distillery ###
 
-Libccnx-common is part of [CCNx Distillery](https://github.com/PARC/CCNx_Distillery). You may want to get the software via that distribution if you want to work on CCNx.
+Libccnx-common is part of [CCNx Distillery](https://github.com/parc-ccnx-archive/CCNx_Distillery). You may want to get the software via that distribution if you want to work on CCNx.
 
 ### Platforms ###
 
@@ -45,8 +49,8 @@ Basic dependencies:
 - OpenSSL
 - pthreads
 - Libevent
-- [LongBow](https://github.com/PARC/LongBow)
-- [Libparc](https://github.com/PARC/Libparc)
+- [LongBow](https://github.com/parc-ccnx-archive/LongBow)
+- [Libparc](https://github.com/parc-ccnx-archive/Libparc)
 
 
 Documentation dependencies:
@@ -60,7 +64,7 @@ Libccnx-common is built using cmake. You will need to have CMake 3.4 installed i
 
 ```
 Download Libccnx-common
-$ git clone git@github.com:PARC/Libccnx-common.git Libccnx-common
+$ git clone git@github.com:parc-ccnx-archive/Libccnx-common.git Libccnx-common
 
 Create build directory
 $ mkdir Libccnx-common.build
@@ -95,7 +99,7 @@ CCNX_HOME=<directory-where-Libccnx-common-is-installed>
 
 ### Contact ###
 
-- [Libccnx-common GitHub](https://github.com/PARC/Libccnx-common)
+- [Libccnx-common GitHub](https://github.com/parc-ccnx-archive/Libccnx-common)
 - [CCNx Website](http://www.ccnx.org/)
 - [CCNx Mailing List](https://www.ccnx.org/mailman/listinfo/ccnx/)
 
